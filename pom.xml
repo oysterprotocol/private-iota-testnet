@@ -19,11 +19,11 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.bouncycastle</groupId>
-            <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.58</version>
-        </dependency>
-            <systemPath>/home/private-iota-testnet/oyster.iota.lib.java/jota/target/jota-0.9.11-SNAPSHOT.jar</systemPath>
+            <groupId>oyster.iota.lib.java</groupId>
+            <artifactId>jota-parent</artifactId>
+            <version>0.9.12-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>/home/private-iota-testnet/oyster.iota.lib.java/jota/target/jota-0.9.12-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>commons-cli</groupId>
@@ -65,6 +65,26 @@
                         <goals>
                             <goal>single</goal>
                         </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.5.2</version>
+                <executions>
+                    <execution>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>install-file</goal>
+                        </goals>
+                        <configuration>
+                            <file>/home/private-iota-testnet/oyster.iota.lib.java/jota/target/jota-0.9.12-SNAPSHOT.jar</file>
+                            <groupId>oyster.iota.lib.java</groupId>
+                            <artifactId>jota-parent</artifactId>
+                            <version>0.9.12-SNAPSHOT</version>
+                            <packaging>jar</packaging>
+                        </configuration>
                     </execution>
                 </executions>
             </plugin>
