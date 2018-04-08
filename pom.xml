@@ -19,9 +19,11 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>org.iota</groupId>
-            <artifactId>jota</artifactId>
-            <version>0.9.10</version>
+            <groupId>oyster.iota.lib.java</groupId>
+            <artifactId>jota-parent</artifactId>
+            <version>0.9.11-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>/home/private-iota-testnet/oyster.iota.lib.java/jota/target/jota-0.9.11-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>commons-cli</groupId>
