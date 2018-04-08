@@ -19,10 +19,10 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>oyster.iota.lib.java</groupId>
-            <artifactId>jota-parent</artifactId>
-            <version>0.9.11-SNAPSHOT</version>
-            <scope>system</scope>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>1.58</version>
+        </dependency>
             <systemPath>/home/private-iota-testnet/oyster.iota.lib.java/jota/target/jota-0.9.11-SNAPSHOT.jar</systemPath>
         </dependency>
         <dependency>
