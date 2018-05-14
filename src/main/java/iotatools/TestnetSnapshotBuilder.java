@@ -1,3 +1,4 @@
+/*
 package iotatools;
 
 import java.io.BufferedReader;
@@ -13,13 +14,14 @@ import org.apache.commons.io.output.TeeOutputStream;
 import jota.utils.Checksum;
 import jota.utils.IotaAPIUtils;
 import jota.utils.SeedRandomGenerator;
-
+*/
 /**
  * Build a snapshot for IOTA testnet. Balances are read interactively from
  * stdin.
  * 
  * (c) 2017 Michael Schierl. Licensed under MIT License.
  */
+/*
 public class TestnetSnapshotBuilder {
 	public static void main(String[] args) throws Exception {
 		long remainingIOTA = 2_779_530_283_277_761L;
@@ -82,3 +84,4 @@ public class TestnetSnapshotBuilder {
 		}
 	}
 }
+*/
